@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="jquery.min.js"></script>
+
+    <title>jQuery</title>
+</head>
+    <body>
+        <div id="contenedor">
+            <div id="mensajeErrorCampos"></div>
+
+            <div class="elemento-formulario">
+                <!-- Email -->
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Ej. nombre@dominio.com">
+            </div>
+
+            <div class="elemento-formulario">
+                <!-- Teléfono -->
+                <label for="telefono">Telefono</label>
+                <input type="number" name="telefono" id="telefono" placeholder="0995545...">   
+            </div>
+            
+            <div class="elemento-formulario">
+                <!-- Password -->
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">   
+            </div>
+
+            <div class="elemento-formulario">
+                <!-- Confirmar password -->
+                <label for="confirmarPass">Confirmar password</label>
+                <input type="password" name="confirmarPass" id="confirmarPass">       
+            </div>
+
+            <div class="elemento-formulario">
+                <input type="submit" value="Darse de alta" id="botonEnviar">
+            </div>
+
+            <div id="mensajeExito"></div>
+
+        </div>
+        <script type="text/javascript" src="scripts/script.js"></script>
+    </body>
+</html>
