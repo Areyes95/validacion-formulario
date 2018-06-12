@@ -1,2 +1,3 @@
 *.html linguist-language=JavaScritp
 *.js linguist-language=JavaScritp
+*.css linguist-language=JavaScritp
